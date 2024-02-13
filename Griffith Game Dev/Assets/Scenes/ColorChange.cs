@@ -8,12 +8,17 @@ public class ColorChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        testMat = getComponent<MeshRenderer>().material;
+        testMat = GetComponent<MeshRenderer>().material;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        testMat.color = Random.ColorHSV();
     }
 }
