@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Ex3.unity
+- path: Assets/Scenes/Ex6.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
