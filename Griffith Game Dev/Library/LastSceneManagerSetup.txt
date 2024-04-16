@@ -1,5 +1,3 @@
-sceneSetups:
-- path: Assets/Scenes/Ex6.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cbbd428d70c0622b49d4e9ce4642220472980f5423f6cb7f3c4488d8619f501
+size 89

@@ -1,20 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class badNavmeshScript : MonoBehaviour
-{
-    public Transform player;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        GetComponent<UnityEngine.AI.NavMeshAgent>().destination = player.position;
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99296f7f27a91819730bddc29ff669121c4e6c8592401396fb81d3bb0f4e6a31
+size 2201
